@@ -1,0 +1,224 @@
+*{
+    margin: auto;
+    padding: auto;
+    /* background-color:#FDECEC; */
+}
+.nav_icon{
+    font-size: 2rem;
+}
+.btn_nav{
+    display: inline_block;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+.header{
+    width: 100vw;
+    background-color:#FDECEC;
+}
+.explore_food{
+    border-radius: 8px;
+    padding: 20px;
+}
+
+
+.last_thing{
+    display: flex;
+    gap: 2rem;
+    padding: 5px;
+}
+
+.list_items{
+    display: flex;
+    justify-content:space-between;
+    gap: 5rem;
+    list-style: none;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 5rem;
+    margin: auto;
+
+}
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+.container {
+    position: relative;
+    width: 100%; /* Adjust this width as needed */
+}
+
+.right-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+     /* Adjust top position if needed */
+}
+.fake_image{
+    padding-left: 16rem;
+    margin-top: 10rem;  
+    margin-bottom: 10rem;
+}
+
+
+
+
+
+/* about section */
+
+.about_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+#about_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    gap: 2rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product h2 {
+    margin-bottom: 0.5rem;
+}
+
+.product button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #c00;
+}
+.review_container{
+    padding: 12rem;
+}
+.people{
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    margin: auto;
+}
+
+.icons{
+    font-size: 2.5rem;
+}
+
+.large_image{
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 0rem;
+}
+li{
+    list-style: none;
+}
+.footer{
+    border: 2px solid black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.review{
+    padding: 250px;
+    background-color: #F8F8F8;
+    display: flex;
+    gap: 120px;
+}
+
+
+.customer{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    border-right: 2px solid #F94A3D;
+}
+
+.info h3{
+    font-size: 28px;
+    color: #212244;
+    padding-bottom: 1rem;
+}
+.profile{
+
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    width: 500px;
+    padding: 25px;
+    background-color: white;
+}
+.saying{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.saying span{
+    color: #F94A3D;
+}
+.saying h2{
+    color: #212244;
+    font-size: 48px;
+    padding-bottom: 35px;
+    
+}
+
+.sayingInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 2px solid #F94A3D;
+    padding: 5px;
+}
+.desc p{
+    color: #69697B;
+    font-size: 22px;
+    line-height: 38px;
+}
+
+
+
